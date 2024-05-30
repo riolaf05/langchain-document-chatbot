@@ -8,3 +8,4 @@ langchain-groq==0.1.4
 fastembed==0.2.7
 langchain-community 
 langchainhub
+streamlit
