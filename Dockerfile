@@ -21,6 +21,7 @@ EXPOSE 8501
 # COPY config.yaml config.yaml
 # COPY .env .env
 RUN mkdir /documents/
+COPY utils/ utils/
 COPY main.py main.py 
 # COPY certs certs
 
